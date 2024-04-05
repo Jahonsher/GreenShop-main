@@ -1,0 +1,344 @@
+.cards--values{
+    // gap: 141px;
+    margin-top: 6px;
+    font-size: 15px;
+    line-height: 40px;
+    color:$text-color;
+    margin-left: 8px;
+    
+}
+
+.main--cards--left__h3{
+    padding-top: 14px;
+    margin-bottom: 13px;
+}
+
+.main--cards--left__h3, .main--cards--left__h3__2{
+    font-size: 18px;
+    line-height: 16px;
+    color:$text-color;
+}
+
+.cards--values__desc{
+    margin-right: auto;
+}
+
+.cards--values1{
+    color:$text-color2;
+    font-weight: bold;
+}
+
+.cards--values:active{
+    font-weight: bold;
+    color:$text-color2;
+}
+
+.main--cards--left-top{
+    padding-left: 18px;
+    width: 310px;
+    height: 854px;
+    background-color: #fbfbfb;
+    padding-right: 24px;
+}
+
+.main--cards{
+    margin-top: 46px;
+}
+
+.main--cards--left__h3__2{
+    margin-top: 30px;
+    margin-bottom: 29px;
+}
+
+.value__input::-webkit-slider-thumb {
+    color:#46A358;
+    background: #46A358;
+}
+
+.value__input::-webkit-range-thumb{
+    color:#46A358;
+    background: #46A358;
+}
+
+
+.value__input {
+    -webkit-appearance: none;
+    width: 209px;
+    height: 5px;
+    background: #e2d4d4;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+    margin-bottom: 21px;
+  }
+  
+  .value__input:hover {
+    opacity: 1;
+  }
+  
+  .value__input::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 13px;
+    height: 13px;
+    background: #04AA6D;
+    cursor: pointer;
+    border-radius:100px;
+  }
+  
+  .value__input::-moz-range-thumb {
+    width: 25px;
+    height: 25px;
+    background: #04AA6D;
+    cursor: pointer;
+  }
+
+  .value__input,  .price__desc, .price__ins,.filter__btn{
+    margin-left: 17px;
+  }
+
+  .price__desc{
+    font-size: 15px;
+    line-height: 16px;
+    color:$text-color;
+    margin-bottom: 16px;
+
+    .price__ins{
+        color:$text-color2;
+        font-weight: bold;
+        margin-left: 5px;
+
+    }
+  }
+
+  .main--cards--left-bottom{
+    width: 310px;
+    height: 470px;
+    background-color: #46a35917;
+    position: relative;
+
+    .main--cards-l-bottom__h2{
+        text-align: center;
+    }
+
+    .main--cards--l-image1{
+        display: block;
+        margin: 0 auto;
+    }
+
+    .main--cards--l-image2{
+        width: 310px;
+        background-color: #46a35917;
+
+    }
+
+    .aylana{
+        position: absolute;
+        right: 30px;
+        top: 70%;
+    }
+
+  }
+
+
+  .main--cards--right{
+    margin-left: 50px;
+  }
+  .main--cards--right--top{
+    gap: 390px;
+
+    .main--cards--right__list{
+        gap: 37px;
+
+        .main--cards--right__link {
+            font-size: $all-card-desc + 1px;
+            line-height: 16px;
+            color:$text-color;
+        }
+
+        .main--cards--right__link_1{
+            color:$text-color2;
+            border-bottom:2px solid #46A358;
+            font-weight: bold;
+            padding-bottom: 7px;
+        }
+
+        .main--cards--right__link:hover{
+            color:$text-color2;
+            border-bottom:2px solid #46A358;
+            font-weight: bold;
+            padding-bottom: 7px;
+        }
+
+       
+    }
+
+    .main--cards--r-top__desc{
+          font-size: $all-card-desc + 1px;
+          line-height: 16px;
+          color: $text-color;  
+          position: relative;
+    }
+
+    .main--cards--r-top__desc::after{
+        content:url(/assets/icon/Arrow\ -\ Down\ 2.png);
+        padding-top: 10px;
+        position: absolute;
+        top: -8px;
+        right: -20px;
+    }
+  }
+
+  .cards__list {
+    display: flex;
+    align-items:center;
+    flex-wrap: wrap;
+    gap: 31px;
+  }
+
+  .cards__item{
+    width: 248px;
+    height: 340px;
+    background-color: #FBFBFB;
+    margin-top: 70px;
+    position: relative;
+
+    .cards__img{
+        width: 248px;
+        height: 250px;
+        margin-top: -10px;
+        margin-bottom: 20px;
+    }
+
+    .cards__h3{
+        font-size: 16px;
+        line-height: 16px;
+        color:$text-color;
+        margin-top: 30px;
+    }
+
+    .cards__ins{
+        font-size: 18px;
+        line-height: 16px;
+        color:$text-color2;
+        font-weight: bold;
+    }
+  }
+
+  .cards__item--hover__icons {
+    display: none;
+    position: absolute;
+    top: 75%;
+    left: 27%;
+    gap:26px;
+    justify-content: space-between;
+    width: 100px;
+    transition: all 1s ease;
+  }
+
+
+  .cards__item:hover .cards__item--hover__icons{
+    display: block;
+    display: inline;
+    position: absolute;
+    top: 72%;
+    left: 29%;
+    display: flex;
+    gap:26px;
+    justify-content: space-between;
+    width: 100px;
+    transition: all 1s ease;
+  }
+
+
+  .cards__item--hover__icon2, .cards__item--hover__icon1, .cards__item--hover__icon3{
+    transition: all .3s ease;
+  }
+  .cards__item--hover__icon2:hover{
+    margin-top: -10px;
+    transition: all .3s ease;
+  }
+
+  .cards__item--hover__icon1:hover{
+    margin-top: -10px;
+    transition: all .3s ease;
+  }
+
+  .cards__item--hover__icon3:hover{
+    margin-top: -10px;
+    transition: all .3s ease;
+  }
+
+
+
+  .cards__item3{
+    position: relative;
+  }
+
+  .discount{
+    position: absolute;
+    background-color: #46A358;
+    top: -20px;
+    left: 0px;
+    width: 80px;
+    height: 29px;
+    color:#fff;
+    font-size: 16px;
+    line-height: 16px;
+    text-align: center;
+    padding-top: 6px;
+  }
+
+  .cards__ins__span{
+    text-decoration: line-through;
+    color:#A5A5A5;
+    font-weight: 300;
+    margin-left: 16px;
+  }
+
+  @media only screen and (max-width:366px){
+    .main--cards--left{
+      display: none !important;
+    }
+
+    .main--cards--right__link {
+      font-size: $all-card-desc !important;
+      line-height: 16px;
+      color:$text-color;
+    }
+
+    .cards__item{
+      width: 175px !important;
+      height: 245px !important;
+      background-color: #fbfbfb;
+      margin-top: 70px;
+      position: relative;
+      border-radius:20px;
+    }
+
+    .cards__img{
+      width: 168px !important;
+      height: 168px !important;
+      margin-top: -10px;
+      margin-left: 3.5px;
+      margin-bottom: 0px !important;
+    } 
+  
+    .cards__h3{
+      font-size: 15px;
+      margin-top: 20px;
+    }
+
+    .cards__ins{
+      font-size: 16px;
+    }
+
+    .main--cards--right__list{
+      width: 346px !important;
+    }
+
+    .main--cards--r-top__desc{
+      display: none;
+    }
+  }

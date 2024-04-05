@@ -1,0 +1,400 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        link(rel="stylesheet", href="../css/main.css")
+        title GREENSHOP
+    body 
+        //- HEADER
+        header.header 
+            .container.d-flex.a-items-c.j-content-s-between 
+                a(href="#")
+                    img(src="../assets/logo/Green-header-logo.svg", alt="logo") 
+                nav.nav
+                    ol.d-flex.a-items-c.nav-gap 
+                        li.header__nav__item 
+                            a(href="./index.html").header__nav__link.home-nav Home 
+                        li.header__nav__item 
+                            a(href="./shop.html").header__nav__link Shop
+
+                        li.header__nav__item 
+                            a(href="#").header__nav__link Plant Care
+
+                        li.header__nav__item 
+                            a(href="#").header__nav__link Blogs 
+
+                .header--right
+                    img(src="../assets/icon/search-icon.svg", alt="search").header__search--icon
+
+                    .karzinka--wrapper 
+                        img(src="../assets/icon/karzinka.svg", alt="karzinka").header__karzinka--icon
+                        ins.karzinka__ins 0
+                    button.header__button.a-items-c Login
+
+        //- /HEADER
+
+        
+        main 
+            //- HERO
+
+            section.hero 
+                .container.d-flex
+                    .hero--left
+                        h4.hero__h4 Welcome to GreenShop
+                        h1.hero__h1 Let’s Make a #[br] Better #[span.hero__h1__span Planet]
+                        p.hero--left__desc We are an online plant shop offering a wide range of cheap and trendy plants. Use our plants to create an unique Urban Jungle. Order your favorite plants!
+                        p.hero--left__desc-rwd We are an online plant shop offering #[brw] a wide range 
+
+
+                        button.hero__btn SHOP NOW 
+                        
+                    .hero--right
+                        img(src="../assets/images/hero-small-image.svg", alt="rasm").hero--right__img1
+                        img(src="../assets/images/hero--big__image.svg", alt="rasm").hero--right__img2
+
+            //- /HERO
+
+            //- MAIN CARDS
+
+            section.main--cards 
+                .container.d-flex.a-item-c 
+                    .main--cards--left
+                        .main--cards--left-top
+                            h3.main--cards--left__h3 Categories
+                            .cards--values.cards--values1.d-flex.a-items-c 
+                                p.cards--values__desc House Plants
+                                ins.cards--values__ins  (33)
+                            .cards--values.d-flex.a-items-c 
+                                p.cards--values__desc Potter Plants
+                                ins.cards--values__ins  (12)   
+                            .cards--values.d-flex.a-items-c 
+                                p.cards--values__desc Seeds
+                                ins.cards--values__ins  (65)   
+                            .cards--values.d-flex.a-items-c 
+                                p.cards--values__desc Small Plants
+                                ins.cards--values__ins  (39)   
+                            .cards--values.d-flex.a-items-c 
+                                p.cards--values__desc Big Plants
+                                ins.cards--values__ins  (23)   
+                            .cards--values.d-flex.a-items-c 
+                                p.cards--values__desc Succulents
+                                ins.cards--values__ins  (17) 
+                            .cards--values.d-flex.a-items-c 
+                                p.cards--values__desc Trerrariums
+                                ins.cards--values__ins  (19)   
+                            .cards--values.d-flex.a-items-c 
+                                p.cards--values__desc Gardening
+                                ins.cards--values__ins  (13)   
+                            .cards--values.d-flex.a-items-c 
+                                p.cards--values__desc Accessories 
+                                ins.cards--values__ins  (18) 
+
+                            h3.main--cards--left__h3__2 Price Range
+
+                            form.value__form
+                                input(type="range").value__input 
+                                p.price__desc Price: #[ins.price__ins $39 - $1230 ]  
+                                button.filter__btn Filter
+
+                            h3.main--cards--left__h3 Size
+                            .cards--values.d-flex.a-items-c 
+                                p.cards--values__desc Small
+                                ins.cards--values__ins  (119)
+                            .cards--values.d-flex.a-items-c 
+                                p.cards--values__desc Medium
+                                ins.cards--values__ins  (86)   
+                            .cards--values.d-flex.a-items-c 
+                                p.cards--values__desc Large
+                                ins.cards--values__ins  (78)   
+
+                        .main--cards--left-bottom 
+                            img(src="../assets/images/Super Sale.png", alt="rasm").main--cards--l-image1
+                            h2.main--cards-l-bottom__h2 UP TO 75% OFF
+                            img(src="../assets/images/main-cards-left-image.png", alt="rasm").main--cards--l-image2
+                            img(src="../assets/images/main-cards-left-aylana.svg", alt="aylana").aylana
+
+                    .main--cards--right
+                        .main--cards--right--top.d-flex.a-items-c
+                            ol.main--cards--right__list.d-flex.a-items-c
+                                li.main--cards--right__item 
+                                    a(href="#").main--cards--right__link.main--cards--right__link_1 All Plants
+                                li.main--cards--right__item 
+                                    a(href="#").main--cards--right__link New Arrivals
+                                li.main--cards--right__item 
+                                    a(href="#").main--cards--right__link Sale
+                            p.main--cards--r-top__desc Short by:__Default sorting 
+
+                        ol.cards__list 
+                            li.cards__item 
+                                img(src="../assets/images/cards__img1 (2).png", alt="rasm").cards__img
+                                h3.cards__h3 Barberton Daisy
+                                ins.cards__ins $119.00
+                                
+                                .cards__item--hover__icons.d-flex.a-items-c      
+                                    img(src="../assets/icon/shopping 1.svg", alt="shopping").cards__item--hover__icon1
+                                    img(src="../assets/icon/heart 1.svg", alt="like").cards__item--hover__icon2
+                                    img(src="../assets/icon/Frame.svg", alt="search").cards__item--hover__icon3
+                            li.cards__item 
+                                img(src="../assets/images/cards__img2.svg", alt="rasm").cards__img
+                                h3.cards__h3 Angel Wing Begonia
+                                ins.cards__ins $169.00
+
+                                .cards__item--hover__icons.d-flex.a-items-c      
+                                    img(src="../assets/icon/shopping 1.svg", alt="shopping").cards__item--hover__icon1
+                                    img(src="../assets/icon/heart 1.svg", alt="like").cards__item--hover__icon2
+                                    img(src="../assets/icon/Frame.svg", alt="search").cards__item--hover__icon3
+
+                            li.cards__item.cards__item3
+                                img(src="../assets/images/cards__img3.svg", alt="rasm").cards__img
+                                h3.cards__h3 African Violet
+                                ins.cards__ins $199.00 #[span.cards__ins__span $229.00]
+
+                                ins.discount 13% OFF
+
+                                .cards__item--hover__icons.d-flex.a-items-c      
+                                    img(src="../assets/icon/shopping 1.svg", alt="shopping").cards__item--hover__icon1
+                                    img(src="../assets/icon/heart 1.svg", alt="like").cards__item--hover__icon2
+                                    img(src="../assets/icon/Frame.svg", alt="search").cards__item--hover__icon3
+
+                            li.cards__item 
+                                img(src="../assets/images/cards__img4.svg", alt="rasm").cards__img
+                                h3.cards__h3 Beach Spider Lily
+                                ins.cards__ins $129.00
+
+                                .cards__item--hover__icons.d-flex.a-items-c      
+                                    img(src="../assets/icon/shopping 1.svg", alt="shopping").cards__item--hover__icon1
+                                    img(src="../assets/icon/heart 1.svg", alt="like").cards__item--hover__icon2
+                                    img(src="../assets/icon/Frame.svg", alt="search").cards__item--hover__icon3
+
+                            li.cards__item 
+                                img(src="../assets/images/cards__img5.svg", alt="rasm").cards__img
+                                h3.cards__h3 Blushing Bromeliad
+                                ins.cards__ins $139.00
+
+                                .cards__item--hover__icons.d-flex.a-items-c      
+                                    img(src="../assets/icon/shopping 1.svg", alt="shopping").cards__item--hover__icon1
+                                    img(src="../assets/icon/heart 1.svg", alt="like").cards__item--hover__icon2
+                                    img(src="../assets/icon/Frame.svg", alt="search").cards__item--hover__icon3
+
+                            li.cards__item 
+                                img(src="../assets/images/cards__img6.svg", alt="rasm").cards__img
+                                h3.cards__h3 Aluminum Plant
+                                ins.cards__ins $179.00
+
+                                .cards__item--hover__icons.d-flex.a-items-c      
+                                    img(src="../assets/icon/shopping 1.svg", alt="shopping").cards__item--hover__icon1
+                                    img(src="../assets/icon/heart 1.svg", alt="like").cards__item--hover__icon2
+                                    img(src="../assets/icon/Frame.svg", alt="search").cards__item--hover__icon3
+
+                            li.cards__item 
+                                img(src="../assets/images/cards__img7.svg", alt="rasm").cards__img
+                                h3.cards__h3 Bird's Nest Fern
+                                ins.cards__ins $99.00
+
+                                .cards__item--hover__icons.d-flex.a-items-c      
+                                    img(src="../assets/icon/shopping 1.svg", alt="shopping").cards__item--hover__icon1
+                                    img(src="../assets/icon/heart 1.svg", alt="like").cards__item--hover__icon2
+                                    img(src="../assets/icon/Frame.svg", alt="search").cards__item--hover__icon3
+
+                            li.cards__item 
+                                img(src="../assets/images/cards__img8.svg", alt="rasm").cards__img
+                                h3.cards__h3 Broadleaf Lady Palm
+                                ins.cards__ins $59.00
+
+                                .cards__item--hover__icons.d-flex.a-items-c      
+                                    img(src="../assets/icon/shopping 1.svg", alt="shopping").cards__item--hover__icon1
+                                    img(src="../assets/icon/heart 1.svg", alt="like").cards__item--hover__icon2
+                                    img(src="../assets/icon/Frame.svg", alt="search").cards__item--hover__icon3
+
+                            li.cards__item 
+                                img(src="../assets/images/cards__img9.svg", alt="rasm").cards__img
+                                h3.cards__h3 Chinese Evergreen
+                                ins.cards__ins $39.00
+
+                                .cards__item--hover__icons.d-flex.a-items-c      
+                                    img(src="../assets/icon/shopping 1.svg", alt="shopping").cards__item--hover__icon1
+                                    img(src="../assets/icon/heart 1.svg", alt="like").cards__item--hover__icon2
+                                    img(src="../assets/icon/Frame.svg", alt="search").cards__item--hover__icon3
+
+            .drop-down 
+                .container.d-flex.a-items-c 
+                    .drop1 
+                        p.drop1__desc 1
+                    .drop2 
+                        p.drop1__desc 2
+                    .drop2 
+                        p.drop1__desc 3
+                    .drop2 
+                        p.drop1__desc 4
+                    .drop2 
+                        img(src="../assets/icon/Arrow - Right 2.svg", alt="arrow").drop1__icon
+
+            .find-more 
+                .container 
+                    ol.find-more__list.d-flex.a-items-c 
+                        li.find-more__item.d-flex 
+                            .find-more__item--left 
+                                img(src="../assets/images/find-more__img1.svg", alt="rasm").find--more__img
+                            .find-more__item--right 
+                                h2.find-more__h2 Summer cactus #[br] & succulents
+                                p.find-more__desc We are an online plant shop offering a wide range of cheap and trendy plants
+                                button.find-more__btn Find More
+
+                        li.find-more__item.d-flex 
+                            .find-more__item--left 
+                                img(src="../assets/images/find-more__img2.svg", alt="rasm").find--more__img
+                            .find-more__item--right 
+                                h2.find-more__h2 Styling Trends #[br] &  & much more
+                                p.find-more__desc We are an online plant shop offering a wide range of cheap and trendy plants
+                                button.find-more__btn Find More
+
+            section.our-blog 
+                .container 
+                    .our-blog--top 
+                        h2.our-blog--top__h2 Our Blog Posts
+                        p.our-blog--top__desc We are an online plant shop offering a wide range of cheap and trendy plants. 
+                    ol.our-blog__list.d-flex.a-items-c 
+                        li.our-blog__item 
+                            a(href="#").our-blog__link
+                                img(src="../assets/images/our-blog__img1.svg", alt="rasm").our-blog__img1 
+                                br
+                                .our-blog__main 
+                                     a(href="#").our-blog__date September 12  I Read in 6 minutes
+                                     h3.our-blog__h3 Cactus & Succulent #[br] Care Tips  
+                                     p.our-blog__desc Cacti are succulents are easy care plants for any home or patio. 
+
+                                     button.our-blog__btn Read More
+
+                        li.our-blog__item 
+                            a(href="#").our-blog__link
+                                img(src="../assets/images/our-blog__img2.svg", alt="rasm").our-blog__img1 
+                                br
+                                .our-blog__main 
+                                     a(href="#").our-blog__date September 13  I Read in 2 minutes
+                                     h3.our-blog__h3 Top 10 Succulents for  #[br] Your Home 
+                                     p.our-blog__desc Best in hanging baskets. Prefers medium to high light. 
+
+                                     button.our-blog__btn Read More
+
+                        li.our-blog__item 
+                            a(href="#").our-blog__link
+                                img(src="../assets/images/our-blog__img3.svg", alt="rasm").our-blog__img1 
+                                br
+                                .our-blog__main 
+                                     a(href="#").our-blog__date September 15  I Read in 3 minutes
+                                     h3.our-blog__h3 Cacti & Succulent #[br] Care Tips  
+                                     p.our-blog__desc Cacti and succulents thrive in containers and because most are.. 
+
+                                     button.our-blog__btn Read More
+
+                        li.our-blog__item 
+                            a(href="#").our-blog__link
+                                img(src="../assets/images/our-blog__img4.svg", alt="rasm").our-blog__img1 
+                                br
+                                .our-blog__main 
+                                     a(href="#").our-blog__date September 15  I Read in 2 minutes
+                                     h3.our-blog__h3 Best Houseplants #[br] Room by Room   
+                                     p.our-blog__desc The benefits of houseplants are endless. In addition to.. 
+
+                                     button.our-blog__btn Read More
+
+            footer.footer 
+                .container
+                    .footer--top 
+                        ol.footer--top__list.d-flex
+                            li.footer--top__item 
+                                img(src="../assets/images/footer--top__img2.svg", alt="rasm").footer--top__img
+                                img(src="../assets/images/Ellipse 10.svg", alt="ellepse").footer--top__img__ellepse
+                                h3.footer--top__h3 Garden Care
+                                p.footer--top__desc We are an online plant shop offering a wide range of cheap and trendy plants.
+
+                            li.footer--top__item 
+                                img(src="../assets/images/footer--top__img2.svg", alt="rasm").footer--top__img
+                                img(src="../assets/images/Ellipse 10.svg", alt="ellepse").footer--top__img__ellepse
+                                h3.footer--top__h3 Plant Renovation
+                                p.footer--top__desc We are an online plant shop offering a wide range of cheap and trendy plants.
+
+                            li.footer--top__item 
+                                img(src="../assets/images/footer--top__img3.svg", alt="rasm").footer--top__img
+                                img(src="../assets/images/Ellipse 10.svg", alt="ellepse").footer--top__img__ellepse
+                                h3.footer--top__h3 Watering Graden
+                                p.footer--top__desc We are an online plant shop offering a wide range of cheap and trendy plants.
+
+                            li.footer--top__item--end 
+                                h2.footer--top__item--end__h2 Would you like to join newsletters?
+                                form.footer--top__item--end__form
+                                    input(type="email"  placeholder="enter your email address...").footer--top__item--end__input
+                                    button.footer__input__btn Join
+                                    p.footer--top__item--end.desc We usually post offers and challenges in newsletter. We’re your online houseplant destination. We offer a wide range of houseplants and accessories shipped directly from our (green)house to yours! 
+                    .footer--middle
+                        ol.footer--middle__list.d-flex.a-items-c 
+                            li.footer--middle__item1 
+                                img(src="../assets/logo/Green-header-logo.svg", alt="logo").footer--middle__logo
+                            li.footer--middle__item2.d-flex.a-items-c 
+                                img(src="../assets/icon/Location.svg", alt="icon")
+                                p 70 West Buckingham Ave. #[br] Farmingdale, NY 11735
+                            li.footer--middle__item3.d-flex.a-items-c 
+                                img(src="../assets/icon/Message.svg", alt="icon") 
+                                p contact@greenshop.com
+                                 
+                            li.footer--middle__item4.d-flex.a-items-c 
+                                img(src="../assets/icon/Calling.svg", alt="icon")
+                                p +88 01911 717 490
+                    .footer--bottom
+                        ol.footer--bottom__list.d-flex
+                            li.footer--bottom__item 
+                                h3.footer--bottom__h3 My Account
+                                p.footer--bottom__desc  My Account
+                                p.footer--bottom__desc  Our stores
+                                p.footer--bottom__desc  Contact us
+                                p.footer--bottom__desc  Career
+                                p.footer--bottom__desc  Specials
+
+                            li.footer--bottom__item 
+                                h3.footer--bottom__h3 Help & Guide
+                                p.footer--bottom__desc Help Center
+                                p.footer--bottom__desc  How to Buy
+                                p.footer--bottom__desc  Shipping & Delivery
+                                p.footer--bottom__desc  Product Policy
+                                p.footer--bottom__desc  How to Return
+
+                            li.footer--bottom__item 
+                                h3.footer--bottom__h3 Categories
+                                p.footer--bottom__desc  House Plants
+                                p.footer--bottom__desc  Potter Plants
+                                p.footer--bottom__desc  Seeds
+                                p.footer--bottom__desc Small Plants
+                                p.footer--bottom__desc  Accessories                          
+
+                            li.footer--bottom__item-_end 
+                                h3.footer--bottom__item-_end__h3 Social Media
+                                .s-network 
+                                    img(src="../assets/icon/Facebook (4).svg", alt="facebook").s-network__icon1
+                                    img(src="../assets/icon/Instagram (1).svg", alt="Instagram").s-network__icon2
+                                    img(src="../assets/icon/Twitter (1).svg", alt="Twitter").s-network__icon3
+                                    img(src="../assets/icon/Linkedin (1).svg", alt="Linkedin").s-network__icon4
+                                    img(src="../assets/icon/Union.svg", alt="facebook").s-network__icon5
+
+                                h3.footer--bottom__item-_end__h3 We accept
+
+                                .payments 
+                                    img(src="../assets/icon/payment.svg", alt="payment")
+
+            .container 
+                p.footer--end © 2021 GreenShop. All Rights Reserved.
+
+                               
+
+
+
+
+
+
+                            
+
+
+        
+
+
+        

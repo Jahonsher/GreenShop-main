@@ -1,0 +1,71 @@
+
+.products__desc {
+    margin-top: 92px;
+    margin-bottom: 127px
+}
+
+
+.products__desc__list{
+    @include d-flex;
+    gap: 30px;
+    margin-bottom: 17px;
+
+    .products__desc__item{
+        font-size: $all-card-desc + 3px;
+        @include line-h;
+        color:$text-color;
+
+    }
+
+    .products__desc__link1{
+        color:$text-color2;
+        font-weight: bold;
+        border-bottom: 3px solid #46a358;
+        padding-bottom: 12px;
+        transition:all .3s ease;
+    }
+
+    .products__desc__link1:hover{
+        color:$text-color2;
+        font-weight: bold;
+        border-bottom: 3px solid #46a358;
+        padding-bottom: 12px;
+        transition:all .3s ease;
+    }
+
+    .products__desc__link2:hover{
+        color:$text-color2;
+        font-weight: bold;
+        border-bottom: 3px solid #46a358;
+        padding-bottom: 12px;
+        transition:all .3s ease;
+    }
+}
+
+.products__desc__br{
+    width: 100%;
+    height: 0.5px;
+    background-color: #46a358;
+}
+
+.products--desc__desc1{
+    margin-top: 18px;
+}
+
+.products--desc__desc1, .products--desc__desc2,.products--desc__desc3{
+    font-size: $all-card-desc;
+    line-height: 24px;
+    color:#727272;
+}
+
+
+.products--desc__h3_1{
+    font-size: $all-card-desc;
+    line-height: 24px;
+    color: $text-color;
+    margin-top: 18px;
+}
+
+.products--desc__desc3{
+    margin-top: 2px;
+}

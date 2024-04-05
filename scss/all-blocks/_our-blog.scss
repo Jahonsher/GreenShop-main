@@ -1,0 +1,49 @@
+.our-blog--top__h2{
+    font-size: 30px;
+    line-height: 16px;
+    color:$text-color;
+    text-align: center;
+    margin-top: 138px;
+    margin-bottom: 15px;
+}
+
+.our-blog--top__desc {
+    font-size: $all-card-desc;
+    line-height: 24px;
+    color:#727272;
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.our-blog__item {
+    width: 268px;
+    height: 363px;
+    background-color: #fbfbfb;
+}
+
+.our-blog__date{
+    font-size: $all-card-desc;
+    color:$text-color2;
+}
+
+.our-blog__h3{
+    font-size: $all-card-desc + 6px;
+    line-height: 26px;
+    color:$text-color;
+}
+
+.our-blog__main {
+    margin-left: 15px;
+}
+
+.our-blog__desc{
+    font-size: $all-card-desc;
+    line-height: 22px;
+    color:#727272;
+    width: 242px;
+}
+
+.our-blog__list{
+    flex-wrap: wrap;
+    gap: 30px;
+}

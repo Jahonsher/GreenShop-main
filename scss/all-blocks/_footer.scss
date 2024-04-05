@@ -1,0 +1,192 @@
+.footer{
+    .container{
+        height: 574px;
+        background-color: #fbfbfb;
+        margin-top: 100px;
+        border-bottom: 1px solid #46A358;
+        margin-bottom: 7px;
+    }
+}
+
+.footer--top__item{
+    position: relative;
+
+    .footer--top__img{
+        margin-left: 15px;
+    }
+
+    .footer--top__h3{
+        font-size: $all-card-desc + 3px;
+        line-height: 16px;
+        color:$text-color;
+        margin-top: 17px;
+        margin-bottom: 9px;
+    }
+
+    .footer--top__desc{
+        font-size: $all-card-desc;
+        line-height: 22px;
+        color:#727272;
+        width: 204px;
+    }
+}
+
+.footer--top__img__ellepse{
+    position: absolute;
+    left: -2px;
+    top: 20px;
+}
+
+.footer--top__list{
+    padding-top: 25px;
+    padding-left: 23px;
+    gap: 34px;
+}
+
+
+.footer--top__item--end__h2 {
+    font-size: $all-card-desc + 4px;
+    line-height: 16px;
+    color:$text-color;
+    margin-bottom: 28px;
+}
+
+.footer--top__item--end__input{
+    width: 354px;
+    height: 40px;
+    background-color: #fff;
+    font-size: $all-card-desc;
+    line-height: 16px;
+    border:none;
+    border-radius:10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding-left: 11px;
+}
+
+.footer--top__item--end.desc {
+    font-size: $all-card-desc - 1px;
+    line-height: 22px;
+    margin-top: 20px;
+    width: 354px;
+    color:#727272;
+}
+
+.footer--middle__list{
+    gap: 87px;
+    padding-top: 22px;
+    padding-left: 23px;
+}
+
+.footer--middle{
+   margin-top: 24px;
+   height: 88px;
+   background-color: #46a35939;
+}
+
+.footer--middle__item4, .footer--middle__item2,.footer--middle__item3{
+    display: flex;
+    gap: 8px;
+}
+
+
+.footer--bottom__list{
+    display: flex;
+    gap: 166px;
+    padding-top: 33px;
+    padding-left: 23px;
+}
+
+.s-network__icon1{
+    border:1px solid #46A358;
+    padding: 7px 11px;
+    border-radius:5px;
+}
+
+.s-network__icon2{
+    border:1px solid #46A358;
+    padding: 7px;
+    border-radius:5px;
+}
+
+.s-network__icon3{
+    border:1px solid #46A358;
+    padding: 8px 7px 9px 7px;
+    border-radius:5px;
+}
+
+.s-network__icon4{
+    border:1px solid #46A358;
+    padding: 7px;
+    border-radius:5px;
+}
+.s-network__icon5{
+    border:1px solid #46A358;
+    padding: 8px 6px;
+    border-radius:5px;
+    transition: all .3s ease;
+}
+
+.s-network {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 33px;
+}
+
+.footer--bottom__item-_end__h3{
+    margin-bottom: 20px;
+    font-size: $all-card-desc + 4px;
+    line-height: 16px;
+    color:$text-color;
+}
+
+.footer--bottom__h3{
+    font-size: $all-card-desc + 4px;
+    line-height: 16px;
+    color:$text-color;
+    margin-bottom: 8px;
+}
+
+.footer--bottom__desc{
+    font-size: $all-card-desc;
+    line-height: 30px;
+    color:$text-color;
+}
+
+.footer--end{
+    font-size: $all-card-desc;
+    line-height: 30px;
+    color:$text-color;
+    text-align: center;
+    margin-bottom: 13px;
+}
+
+
+.s-network__icon2:hover{
+    box-shadow: rgba(70, 215, 12, 0.4) 0px 5px, rgba(82, 249, 160, 0.3) 0px 10px, rgba(9, 248, 53, 0.2) 0px 15px, rgba(85, 248, 169, 0.1) 0px 20px, rgba(131, 221, 14, 0.05) 0px 25px;
+    transition: all .3s ease;
+
+}
+
+.s-network__icon1:hover{
+    box-shadow: rgba(70, 215, 12, 0.4) 0px 5px, rgba(82, 249, 160, 0.3) 0px 10px, rgba(9, 248, 53, 0.2) 0px 15px, rgba(85, 248, 169, 0.1) 0px 20px, rgba(131, 221, 14, 0.05) 0px 25px;
+    transition: all .3s ease;
+
+}
+
+.s-network__icon3:hover{
+    box-shadow: rgba(70, 215, 12, 0.4) 0px 5px, rgba(82, 249, 160, 0.3) 0px 10px, rgba(9, 248, 53, 0.2) 0px 15px, rgba(85, 248, 169, 0.1) 0px 20px, rgba(131, 221, 14, 0.05) 0px 25px;
+    transition: all .3s ease;
+
+}
+
+.s-network__icon4:hover{
+    box-shadow: rgba(70, 215, 12, 0.4) 0px 5px, rgba(82, 249, 160, 0.3) 0px 10px, rgba(9, 248, 53, 0.2) 0px 15px, rgba(85, 248, 169, 0.1) 0px 20px, rgba(131, 221, 14, 0.05) 0px 25px;
+    transition: all .3s ease;
+
+}
+
+.s-network__icon5:hover{
+    box-shadow: rgba(70, 215, 12, 0.4) 0px 5px, rgba(82, 249, 160, 0.3) 0px 10px, rgba(9, 248, 53, 0.2) 0px 15px, rgba(85, 248, 169, 0.1) 0px 20px, rgba(131, 221, 14, 0.05) 0px 25px;
+    transition: all .3s ease;
+
+}

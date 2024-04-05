@@ -1,0 +1,32 @@
+.header__nav__item{
+    font-size: $all-card-desc + 2px;
+
+    .header__nav__link{
+        color:$text-color;  
+        transition: all .3s ease;
+    }
+
+    .header__nav__link:hover{
+        font-weight: bold;
+        border-bottom: 3px solid #46A358;
+        padding-bottom: 25px;
+        transition: all .3s ease;
+    }
+
+    
+}
+
+.shop-nav{
+    font-weight: bold;
+    border-bottom: 3px solid #46A358;
+    padding-bottom: 25px;
+    transition: all .3s ease;
+}
+
+
+.home-nav{
+    font-weight: bold;
+    border-bottom: 3px solid #46A358;
+    padding-bottom: 25px;
+    transition: all .3s ease;
+}

@@ -1,0 +1,316 @@
+$header-btn-bg-color:#46A358;
+$header-btn-text-color:#FFFFFF;
+$header-btn-text-size:16px;
+$header-btn-width:100px;
+$header-btn-height:35px;
+$header-btn-border-radius:5px;
+
+$btn-border: 3px solid #46A358;
+$btn-cursor: pointer;
+
+$shop-find-more-btn-bg-color:#46A358;
+$shop-find-more-btn-text-color:#FFFFFF;
+$shop-find-more-btn-text-size:16px;
+$shop-find-more-btn-border-radius:5px;
+$shop-find-more-btn-width:140px;
+$shop-find-more-btn-height: 40px;
+
+$filter-btn-bg-color:#46A358;
+$filter-btn-text-color:#FFFFFF;
+$filter-btn-text-size:16px;
+$filter-btn-width:90px;
+$filter-btn-height:35px;
+$filter-btn-border-radius:5px;
+
+
+.header__button::before{
+    content:url(/assets/icon/login-icon.svg);
+    position: relative;
+    top: 3px;
+    left: -4px;
+}
+
+.header__button{
+    width: $header-btn-width;
+    height: $header-btn-height;
+    border:$btn-border;
+    background-color: $header-btn-bg-color;
+    color:$header-btn-text-color;
+    font-size: $header-btn-text-size;
+    border-radius:$header-btn-border-radius;
+    transition:all .3s ease;
+    cursor: $btn-cursor;
+}
+
+.header__button:hover{
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    transition:all .3s ease;
+    // background-color: #fff;
+}
+
+.header__button:active{
+    opacity: .7;
+}
+
+.hero__btn{
+    width: $shop-find-more-btn-width;
+    height: $shop-find-more-btn-height;
+    background-color: $shop-find-more-btn-bg-color;
+    color:$shop-find-more-btn-text-color;
+    font-size: $shop-find-more-btn-text-size;
+    border:$btn-border;
+    border-radius:$shop-find-more-btn-border-radius;
+    transition: all .3s ease;
+    cursor: $btn-cursor;
+
+}
+
+.hero__btn:hover{
+    background-color: transparent;
+    color:#46A358;
+    font-weight: bold;
+    transition: all .3s ease;
+}
+
+.filter__btn{
+    width: $filter-btn-width;
+    height: $filter-btn-height;
+    border:$btn-border;
+    background-color: $filter-btn-bg-color;
+    color:$filter-btn-text-color;
+    font-size: $filter-btn-text-size;
+    border-radius:$filter-btn-border-radius;
+    transition: all .3s ease;
+    margin-bottom: 23px;
+    cursor: $btn-cursor;
+
+}
+
+
+.filter__btn:hover{
+    background-color: transparent;
+    color:#46A358;
+    font-weight: bold;
+    transition: all .3s ease;
+}
+
+.find-more__btn{
+    width: $shop-find-more-btn-width + 30px;
+    height: $shop-find-more-btn-height;
+    background-color: $shop-find-more-btn-bg-color;
+    color:$shop-find-more-btn-text-color;
+    font-size: $shop-find-more-btn-text-size;
+    border-radius:$shop-find-more-btn-border-radius;
+    border:$btn-border;
+    position: relative;
+    cursor: $btn-cursor;
+    transition: all .3s ease;
+}
+
+.find-more__btn::after{
+    content:url(/assets/icon/Arrow\ -\ Right__find-more.svg);
+    position: absolute;
+    top: 10px;
+    margin-left: 5px;
+}
+
+.find-more__btn:hover{
+    background-color: transparent;
+    color:$text-color2;
+    font-weight: bold;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    transition: all .3s ease;
+}
+
+.our-blog__btn{
+    border:none;
+    background-color: transparent;
+    color:$text-color;
+    font-weight: bold;
+    margin-top: 9px;
+    cursor: pointer;
+    position: relative;
+    transition: all .3s ease;
+}
+
+.our-blog__btn::after{
+    content:url(/assets/icon/Arrow\ -\ Right__our-blog1.svg);
+    position: absolute;
+    top: 1px;
+    left: 70px;
+}
+
+.our-blog__btn:hover::after{
+    content:url(/assets/icon/Arrow\ -\ Right__our-blog2.svg);
+    position: absolute;
+    top: 1px;
+    left: 70px;
+
+}
+
+.our-blog__btn:hover{
+    color:$text-color2;
+    transition: all .3s ease;
+}
+
+.our-blog__btn:active{
+    opacity: .6;
+    transition: all .3s ease;
+}
+
+.footer--top__item--end__form{
+    position: relative;
+}
+
+.footer__input__btn {
+    width: 85px;
+    height: 40px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    position: absolute;
+    right: -1px;
+    border:$btn-border;
+    background-color: $filter-btn-bg-color;
+    color:#fff;
+    font-size: 18px;
+    line-height: 16px;
+
+
+}
+
+
+.minus{
+    width: 33px;
+    height: 38px;
+    border-radius:29px;
+    background-color: #46a358;
+    border:2px solid #46a358;
+    font-size: 26px;
+    @include line-h;
+    color:#fff;
+    text-align:center;
+    padding-bottom:5px;
+    cursor: pointer;
+ }
+
+ .plus{
+    width: 33px;
+    height: 38px;
+    border-radius:29px;
+    background-color: #46a358;
+    border:2px solid #46a358;
+    font-size: 26px;
+    @include line-h;
+    color:#fff;
+    text-align:center;
+    padding-left:1px;
+    cursor: pointer;
+ }
+
+ .buy-now__btn{
+    width: $shop-find-more-btn-width - 10px;
+    height: $shop-find-more-btn-height;
+    background-color: $shop-find-more-btn-bg-color;
+    color:$shop-find-more-btn-text-color;
+    font-size: $shop-find-more-btn-text-size;
+    border:$btn-border;
+    border-radius:$shop-find-more-btn-border-radius;
+    transition: all .3s ease;
+    cursor: $btn-cursor;
+ }
+
+ .buy-now__btn:hover{
+    background-color: transparent;
+    color:#46A358;
+    font-weight: bold;
+    transition: all .3s ease;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+ }
+
+ .add-to-cart__btn{
+    background-color: transparent;
+    color:#46A358;
+    font-weight: bold;
+    transition: all .3s ease;
+    width: $shop-find-more-btn-width - 10px;
+    height: $shop-find-more-btn-height;
+    border-radius:$shop-find-more-btn-border-radius;
+    cursor: $btn-cursor;
+    font-size: $shop-find-more-btn-text-size;
+    border:2px solid #46a358;
+
+ }
+
+ .add-to-cart__btn:hover{
+    background-color: $btn-color;
+    color:#fff;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: all .3s ease;
+
+ }
+
+ .like__btn{
+    background-color: transparent;
+    width: 40px;
+    height: 40px;
+    border: 2px solid $btn-color;
+    border-radius:6px;
+    padding-top: 5px;
+    cursor: pointer;    
+    transition: all .3s ease;
+
+ }
+
+ .like__btn:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: all .3s ease;
+      
+ }
+
+
+ .proceet--btn{
+    width: 332px;
+    height: 40px;
+    background-color: #46a358;
+    border:$btn-border;
+    border-radius:3px;
+    font-size: $all-card-desc + 1px;
+    @include line-h;
+    font-weight: bold;
+    color:#fff;
+    cursor: pointer;
+    margin-top: 29px;
+    transition: all .3s ease;
+
+ }
+
+ .proceet--btn:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    transition: all .3s ease;
+}
+
+.proceet--btn:active{
+    opacity: .6;
+    transition: all .3s ease;
+}
+
+@media only screen and (max-width:366px){
+    .hero__btn{
+        background-color: transparent;
+        border:none;
+        color:$btn-color;
+        font-weight: bold;
+        font-size: 12px;
+        line-height: 14px;
+        position: relative;
+        margin-left: -36px;
+    }
+
+    .hero__btn::after{
+        content:url(/assets/icon/Arrow\ -\ Right__RWD-hero-btn.svg);
+        position: absolute;
+        top: 12px;
+        margin-left: 2px;
+
+    }
+}

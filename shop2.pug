@@ -1,0 +1,129 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        link(rel="stylesheet", href="../css/main.css")
+        title GREENSHOP
+    body 
+        include companents/header
+
+        .container
+            p.shop-top__link 
+                a(href="./shop.html")  Home / #[a(href="./index.html") #[span.shop-top__link__span Shop] ] / #[a(href="./checkout.html") Shopping Cart]
+
+        section.shop2__product
+            .container 
+                .shop2__product--left
+                    .shop2__product--left--top  
+                        h3.shop2__product__h3_1 
+                            a(href="#")  Products
+                        .shop2__products__heading--right 
+                            h3.shop2__product__h3_2 
+                                a(href="#")  Price
+                            h3.shop2__product__h3_2 
+                                a(href="#")  Quantity
+                            h3.shop2__product__h3_2 
+                                a(href="#")  Total
+                    .shop2__product--left--top__br
+
+                    .shop2__product--left__menu 
+                        .shop2__product--left__menu__left
+                            img(src="../assets/images/shop2__product__img1.svg", alt="rasm")
+                            .shop2__product--left__menu__left__desc 
+                                h3.shop2__product--left__h3_1 Barberton Daisy
+                                p.shop2__product--left__desc_1 SKU: #[span.shop2__product--left__desc_1__span 1995751877966]
+
+                        .shop2__product--left__menu__right
+
+                            ins.shop2__product--left__menu__right__ins1 $119.00
+            
+                            .plus-wrap.d-flex.a-items-c.shop2__plus-wrap
+                                button.minus.minus--shop2 -
+                                ins.number__ins.number__ins__shop2 2
+                                button.plus.plus__shop2 +
+
+                            ins.shop2__product--left__menu__right__ins2 $238.00
+                            img(src="../assets/icon/Delete.svg", alt="delete").delete__icon
+
+                    .shop2__product--left__menu 
+                        .shop2__product--left__menu__left
+                            img(src="../assets/images/shop2__product__img2.svg", alt="rasm")
+                            .shop2__product--left__menu__left__desc 
+                                h3.shop2__product--left__h3_1 Blushing Daisy
+                                p.shop2__product--left__desc_1 SKU: #[span.shop2__product--left__desc_1__span 19957518757065]
+
+                        .shop2__product--left__menu__right
+
+                            ins.shop2__product--left__menu__right__ins1 $139.00
+            
+                            .plus-wrap.d-flex.a-items-c.shop2__plus-wrap
+                                button.minus.minus--shop2 -
+                                ins.number__ins.number__ins__shop2 6
+                                button.plus.plus__shop2 +
+
+                            ins.shop2__product--left__menu__right__ins2 $834.00
+                            img(src="../assets/icon/Delete.svg", alt="delete").delete__icon
+
+                    .shop2__product--left__menu 
+                        .shop2__product--left__menu__left
+                            img(src="../assets/images/shop2__product__img3.svg", alt="rasm")
+                            .shop2__product--left__menu__left__desc 
+                                h3.shop2__product--left__h3_1 Aluminum Plant
+                                p.shop2__product--left__desc_1 SKU: #[span.shop2__product--left__desc_1__span 1995751877786]
+
+                        .shop2__product--left__menu__right
+
+                            ins.shop2__product--left__menu__right__ins1 $179.00
+            
+                            .plus-wrap.d-flex.a-items-c.shop2__plus-wrap
+                                button.minus.minus--shop2 -
+                                ins.number__ins.number__ins__shop2 9
+                                button.plus.plus__shop2 +
+
+                            ins.shop2__product--left__menu__right__ins2 $1,611.00
+                            img(src="../assets/icon/Delete.svg", alt="delete").delete__icon
+
+
+                .shop2__product--right
+                    h3.shop2__product--right__h3 Cart Totals
+
+                    .shop2__product--right__br 
+
+                    h4.shop2__product--right__h4 Coupon Apply
+
+                    form.shop2__product--right__form
+                        input(type="text" placeholder="Enter coupon code here...").shop2__product--right__form__input
+                        button.shop2__product--right__form__btn Apply
+
+                        ol 
+                            li.shop2__product--right__form__item 
+                                p.shop2__product--right__desc Subtotal
+                                ins.shop2__product--right__desc__ins $2,683.00
+
+                            li.shop2__product--right__form__item 
+                                p.shop2__product--right__desc Coupon Discount
+                                ins.shop2__product--right__desc__ins2 (-) 00.00
+
+                            li.shop2__product--right__form__item 
+                                p.shop2__product--right__desc Shiping
+                                ins.shop2__product--right__desc__ins $16.00
+
+                        p.shop2__product--right__desc2 View shipping charge
+
+                            li.shop2__product--right__form__item 
+                                p.shop2__product--right__desc3 Total
+                                ins.shop2__product--right__desc__ins3 $2,699.00
+
+                        button.proceet--btn Proceed To Checkout
+
+                        br
+
+                        a(href="#").shop2__product--right__form--end__link Continue Shopping
+
+
+
+
+
+        include companents/releted-product
+        include companents/footer

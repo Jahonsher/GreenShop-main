@@ -1,0 +1,42 @@
+.find-more__item{
+    width: 586px;
+    height: 250px;
+    background-color: #fbfbfb;
+    position: relative;
+
+}
+
+.find-more__item--right{
+    text-align: right;
+    margin-top: 37px;
+    z-index: 1;
+    padding-right: 30px;
+    position: absolute;
+    right: 10px;
+
+    .find-more__h2{
+        font-size: $all-card-desc + 4px;
+        line-height: 24px;
+        color:$text-color;
+        margin-bottom: 9px;
+        font-weight: bold;
+    }
+
+    .find-more__desc{
+        font-size:$all-card-desc;
+        line-height: 24px;
+        color:#727272;
+        width: 292px;
+        margin-bottom: 25px;
+    }
+}
+
+.find--more__img{
+    position: absolute;
+    bottom:0px;
+}
+
+.find-more__list{
+    gap: 28px;
+    margin-left: -30px;
+}

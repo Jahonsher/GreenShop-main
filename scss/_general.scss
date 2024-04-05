@@ -1,0 +1,36 @@
+@mixin d-flex{
+  display: flex;
+  align-items:center;
+}
+
+@mixin line-h{
+  line-height: 16px;
+}
+
+
+$btn-color:#46A358;
+$text-color:#3D3D3D;
+$card-bg-color:#FBFBFB;
+
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+ol, ul{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+  color:#3D3D3D;
+}
+
+ins{
+  text-decoration: none;
+}

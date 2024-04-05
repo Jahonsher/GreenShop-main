@@ -1,0 +1,83 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        link(rel="stylesheet", href="../css/main.css")
+        title GREENSHOP
+    body 
+        include companents/header
+
+        .container
+            p.shop-top__link 
+                a(href="./shop.html")  Home / #[a(href="./index.html") Shop] / #[a(href="#") #[span.shop-top__link__span Checkout] ]
+
+        section.billing-address
+            .container 
+                .billing-address--left
+                    h2.billing-address--left__h2 Billing Address
+                    
+                    form.billing-address--left__form
+                        .billing-address--left__form--left 
+                            lable.billing-address--left__form--left__lable1 First Name #[span.billing-address--left__form--left__lable__span *]
+                            br
+                            input(type="text").billing-address--left__form--left__input1
+                            br
+                            lable.billing-address--left__form--left__lable1 Country / Region #[span.billing-address--left__form--left__lable__span *]
+                            br
+                            input(type="text" placeholder="Select a country / region").billing-address--left__form--left__input1
+                            br
+                            lable.billing-address--left__form--left__lable1 Street Address #[span.billing-address--left__form--left__lable__span *]
+                            br
+                            input(type="text" placeholder="House number and street name").billing-address--left__form--left__input1
+                            br
+                            lable.billing-address--left__form--left__lable1 State #[span.billing-address--left__form--left__lable__span *]
+                            br
+                            input(type="text" placeholder="Select a state").billing-address--left__form--left__input1
+
+                            br
+                            lable.billing-address--left__form--left__lable1 Email address #[span.billing-address--left__form--left__lable__span *]
+                            br
+                            input(type="email").billing-address--left__form--left__input1
+
+                            br
+
+                            input(type="radio").billing-address--left__form--left__input--end 
+
+                            lable.billing-address--left__form--left__lable--end Ship to a different address?
+
+                            br
+
+                            lable.billing-address--left__form--left__lable__textarea Order notes (optional)
+                            br
+                            textarea(name="text", cols="30", rows="10") 
+                        .billing-address--left__form--right
+                            lable.billing-address--left__form--left__lable1 First Name #[span.billing-address--left__form--left__lable__span *]
+                            br
+                            input(type="text").billing-address--left__form--left__input1
+                            br
+                            lable.billing-address--left__form--left__lable1 First Name #[span.billing-address--left__form--left__lable__span *]
+                            br
+                            input(type="text").billing-address--left__form--left__input1
+                            br
+                            lable.billing-address--left__form--left__lable1 First Name #[span.billing-address--left__form--left__lable__span *]
+                            br
+                            input(type="text").billing-address--left__form--left__input1
+                            br
+                            lable.billing-address--left__form--left__lable1 First Name #[span.billing-address--left__form--left__lable__span *]
+                            br
+                            input(type="text").billing-address--left__form--left__input1
+
+                            br
+                            lable.billing-address--left__form--left__lable1 First Name #[span.billing-address--left__form--left__lable__span *]
+                            br
+                            input(type="text").billing-address--left__form--left__input1
+
+                            
+
+
+                .billing-address--right
+
+        include companents/footer
+        
+

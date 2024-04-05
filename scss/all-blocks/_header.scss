@@ -1,0 +1,56 @@
+.header--right{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    
+}
+
+
+.header{
+    margin-top: 25px;
+    .container{
+        padding-bottom: 17px;
+        border-bottom: 1px solid #46a35988;
+        
+        
+    }
+}
+
+.karzinka--wrapper{
+    position: relative;
+
+}
+
+.karzinka__ins{
+    text-decoration: none;
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border-radius:100px;
+    background-color: #46A358;
+    text-align: center;
+    color:#fff;
+    font-size: 12px;
+    // padding-top: -.9px;
+    top: -1px;
+    right: -5px;
+}
+
+
+
+
+
+
+
+@media only screen and (max-width:366px){
+    .container{
+        width: 346px;
+        margin: 0 auto;
+    }
+
+    .header{
+        display: none;
+    }
+
+    
+}
